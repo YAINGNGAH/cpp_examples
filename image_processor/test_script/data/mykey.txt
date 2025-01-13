@@ -1,0 +1,1 @@
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKOeSzRrShK0XVTfv2VCuVfdMmWFfj/qXUlxfealIRyA lainfag@lainfag-hplaptop17cp0xxx

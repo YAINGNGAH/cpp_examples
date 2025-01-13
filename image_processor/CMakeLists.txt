@@ -1,0 +1,31 @@
+add_executable(
+        image_processor
+        image_processor.cpp
+        bmp_wr.cpp
+        image.cpp
+        color.cpp
+        crop.cpp
+        edge.cpp
+        grayscale.cpp
+        sharpening.cpp
+        negative.cpp
+        gauss.cpp
+        doublecolor.cpp
+        cmdcheckfunctions.cpp
+        median.cpp
+        matrixfilter.cpp)
+add_catch(test_image_processor
+        tester.cpp
+        bmp_wr.cpp
+        image.cpp
+        color.cpp
+        crop.cpp
+        edge.cpp
+        grayscale.cpp
+        sharpening.cpp
+        negative.cpp
+        gauss.cpp
+        doublecolor.cpp
+        cmdcheckfunctions.cpp
+        median.cpp
+        matrixfilter.cpp)
